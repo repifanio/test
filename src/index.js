@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  return res.json({ message: "Teste com uma nova Branch" })
+  return res.json({ message: "Muito massa" })
 })
 
 app.listen(3333, () => console.log('Server running on port 3333'))
