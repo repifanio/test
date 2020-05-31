@@ -25,19 +25,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://place2b.api.homolog.somosdx.co/api/faq",
-					"protocol": "https",
+					"raw": "http://localhost:3333",
+					"protocol": "http",
 					"host": [
-						"place2b",
-						"api",
-						"homolog",
-						"somosdx",
-						"co"
+						"localhost"
 					],
-					"path": [
-						"api",
-						"faq"
-					]
+					"port": "3333"
 				}
 			},
 			"response": []
